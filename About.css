@@ -1,0 +1,154 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0C0C0C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    background-color: #c9c9c956;
+    padding: 2.5px 2.5px 2.5px 2.5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-description {
+    background-color: #1c1c1c;
+    color: #FFF;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.about-description h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 36px;
+    margin: 0;
+}
+
+.about-description p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about-description {
+        padding: 20px;
+    }
+
+    .about-description h2 {
+        font-size: 24px;
+    }
+
+    .about-description p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+.footer-section {
+    background-color: #0c0c0c;
+    color: #FFF;
+    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+}
+
+.footer-left p {
+    cursor: pointer;
+    font-size: 35px;
+    margin: 0;
+}
+
+.footer-center a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-right a {
+    font-size: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-right a:hover {
+    color: #2bff0071;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
